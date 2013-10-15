@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safestrap</string>
+    <string name="install_recovery">Install Recovery</string>
+    <string name="uninstall_recovery">Uninstall Recovery</string>
+    <string name="reboot_recovery">Reboot to Recovery</string>
+    <string name="upgrade_recovery">Upgrade Recovery</string>
+    <string name="recovery_state_caption">State:</string>
+    <string name="recovery_state_installed">Installed</string>
+    <string name="recovery_state_not_installed">Not Installed</string>
+    <string name="system_status_caption">Safe System:</string>
+    <string name="system_status_not_active">Not Active</string>
+    <string name="recovery_status_disabled">Recovery Disabled</string>
+    <string name="instructions"></string>
+    <string name="version">3.63</string>
+    <string name="disclaimer">THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</string>
+	<string name="status_installed">#66FF99</string>
+	<string name="status_notinstalled">#FF0000</string>
+	<string name="status_upgrade">#FFFF00</string>
+    <string name="reboot_write_protect">Reboot to Write Protect Off Mode</string>
+</resources>
