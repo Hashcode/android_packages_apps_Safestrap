@@ -42,7 +42,7 @@ public class UninstallDialogThread extends Thread implements Runnable {
         	ExecuteAsRootBase.executecmd("chmod 755 " + filesDir + "/busybox");
         	ExecuteAsRootBase.executecmd("chmod 755 " + filesDir + "/*.sh");
     		reply(1,60,"Uninstalling...");
-        	ExecuteAsRootBase.executecmd(filesDir + "/busybox sh " + filesDir + "/recovery-uninstall.sh " + filesDir);
+        	ExecuteAsRootBase.executecmd("sh " + filesDir + "/recovery-uninstall.sh " + filesDir);
     		reply(1,90,"Cleaning Up...");
         	ExecuteAsRootBase.executecmd(filesDir + "/busybox rm -r " + filesDir + "/install-files");
         	reply(0,0,"Uninstall Complete.");
