@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hashcode.safestrap"
-    android:versionCode="365"
+    android:versionCode="370"
     android:versionName="@string/version" >
 
-    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="11" />
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="19" />
 
     <application
         android:icon="@drawable/ic_launcher"
